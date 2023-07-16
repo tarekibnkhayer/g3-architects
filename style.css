@@ -54,3 +54,32 @@ font-weight: 700;
     color: #727272;
     font-weight: 400;
 }
+.banner-content button{
+    margin-bottom: 2rem;
+}
+/* responsive for small device */
+@media screen and (max-width: 576px) {
+    .banner-content{
+        margin: 0 2rem;
+    }
+    .nav-container{
+        flex-direction: column;
+    }
+    header img {
+        width: 100%;
+        margin: 0;
+    }
+    /* responsive for medium device */
+    @media screen  and (min-width: 576.1px)
+    and (max-width: 960px)
+    {
+        .nav-container{
+            flex-direction: column;
+        }
+        header img {
+            width: 100%;
+            margin: 0;
+        }
+    }
+    
+}
