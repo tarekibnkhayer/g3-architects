@@ -142,6 +142,9 @@ width: 33.5rem;
     @media screen  and (min-width: 576.1px)
     and (max-width: 960px)
     {
+        body{
+            margin: 0;
+        }
         .nav-container{
             flex-direction: column;
         }
@@ -166,5 +169,21 @@ width: 33.5rem;
     .banner-content{
         margin: 0 5rem;
     }
+    }
+    /* feature section */
+
+    /* fact section */
+    .fact-title{
+        color: #131313;
+        font-size: 4rem;
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+    }
+    .fact-description{
+        color: #727272;
+        font-weight: 400;
+        line-height: 1.6rem;
+    width: 33.5rem;
+    margin-top: 0 ;
     }
      
