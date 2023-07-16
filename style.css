@@ -124,3 +124,18 @@ line-height: 1.6rem;
 width: 33.5rem;
 
 }
+/* responsive for small device */
+@media screen and (max-width:576px) {
+    .team-container{
+        flex-direction: column;
+    }
+    .team-img-container{
+        grid-template-columns: 1fr;
+    }
+    .team-content{
+        margin-top: 2rem;
+    }
+    .team-description, .team-title{
+        width: 100%;
+    }
+}
