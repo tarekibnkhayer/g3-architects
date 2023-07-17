@@ -132,7 +132,30 @@ align-items: center;
     max-width: 2.8rem;
     max-height: 2.8rem;
    }
-   
+   /* sponsor section */
+   .sponsor-title{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+   }
+   .sponsor-description{
+    color:  #727272;
+text-align: center;
+font-weight: 400;
+margin-bottom: 3rem;
+   }
+   .sponsor{
+    text-align: center;
+   }
+.sponsor-img-container{
+    display: flex;
+    justify-content: space-between;
+}
+.sponsor-img-container img{
+    width: 9.5rem;
+    height: 3.1rem;
+}
   
 /* responsive for small device */
 @media screen and (max-width:576px) {
@@ -176,6 +199,13 @@ align-items: center;
         width: 95%;
        
     }  
+    .sponsor-img-container{
+        flex-direction: column;
+        gap: 2.5rem;
+        align-items: center;
+
+    }
+   
 }
 
 
