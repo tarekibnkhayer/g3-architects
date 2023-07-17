@@ -106,7 +106,57 @@ line-height: 1.6rem;
 width: 33.5rem;
 }
     /* feature section */
+    .feature{
+        display: flex;
+        gap: 9rem;
+        margin-top: 8rem;
+    }
+    .feature-title{
+        color: #131313;
+        font-size: 2.8rem;
+        font-weight: 700;
+    }
+.feature-description{
+    color: #727272;
+    font-weight: 400;
+}
+.card-title{
+    color: #131313;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.card{
+    border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+gap: 1.25rem;
+}
+.feature-img img{
+    width: 35rem;
+    height: 50rem; 
+}
+.experience{
+    border-radius: 8px;
+background: #FF900E;
+width: 15rem;
+height: 8rem;
+padding: 2.6rem;
+}
+.experience h2{
+    color: #FFF;
+text-align: center;
+font-size: 3rem;
+font-weight: 700;
+margin: 0;
+}
+.experience p{
+    color: #FFF;
+font-size:1.5rem ;
+font-weight: 500;
+line-height: 2.5rem;
+text-align: center;
 
+}
     /* fact section */
     .fact-title{
         color: #131313;
