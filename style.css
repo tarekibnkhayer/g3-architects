@@ -313,4 +313,11 @@ margin-bottom: 3rem;
         gap: 4rem;
         align-items: center;
     }
+    .feature{
+        flex-direction: column;
+    }
+   .feature-img img{
+    width: 100%;
+   }
+   
     }
